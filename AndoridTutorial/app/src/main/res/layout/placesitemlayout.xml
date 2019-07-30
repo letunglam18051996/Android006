@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#F44336"
+    android:id="@+id/ll_placesitem"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_urlLogoPlace"
+        android:layout_width="107dp"
+        android:layout_height="96dp"
+        android:src="@drawable/img_anhdep"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_placeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="placeName  "
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_adress"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="adress "
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_categoryID"
+            android:layout_width="72dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="+10"
+            android:textColor="#CDDC39"
+
+            />
+        <TextView
+            android:id="@+id/tv_isMoreDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_isPromotion"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/phone_number_bg"
+        android:text="Promotion"
+        android:textStyle="bold"
+
+
+        ></TextView>
+
+
+
+</LinearLayout>
